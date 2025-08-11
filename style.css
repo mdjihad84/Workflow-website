@@ -1,0 +1,62 @@
+/* Header and Navbar Styles */
+header {
+  padding: 20px;
+  border-radius: 40px;
+  background: #fff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.75rem 2rem;
+}
+
+.logo img {
+  height: 40px;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  gap: 2rem;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: #222;
+  font-weight: 500;
+  font-size: 21px;
+  transition: color 0.2s;
+}
+
+.nav-links li a:hover {
+  color: #0077ff;
+}
+
+.header-btn {
+  background: transparent;
+  color: #fff;
+  padding: 16px 24px;
+  border-radius: 24px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background 0.2s;
+  margin-left: 2rem;
+  color: black;
+  border: 1px solid;
+}
+
+.header-btn:hover {
+  background: #005bb5;
+  color: rgb(255, 255, 255);
+}
